@@ -1,0 +1,31 @@
+body{
+  background-color: #000000;
+}
+#es-head{
+  width: 100%;
+  height: 75px;
+  background-color: #5b7989;
+  color: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+}
+#es-titulo{
+  float: left;
+  text-shadow: 2px 2px 5px #02010a;
+}
+.es-menu{
+  float: right;
+  height: 100%;
+  padding-top: 16px;
+}
+.es-menu a {
+  padding: 8px 16px;
+}
+a:link{color: #ffffff;
+}
+a:visited{
+  color: inherit;
+}
+
+a[href^="#"] {
+    text-decoration: none!important;
+}
